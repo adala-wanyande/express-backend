@@ -8,6 +8,9 @@ app.use(express.json()); // Middleware to parse JSON bodies
 const catsRouter = require('./routes/cats.router');
 app.use('/cats', catsRouter); // Use cats router for all paths starting with /cats
 
+const todosRouter = require('./routes/todos.router');
+app.use('/todos', todosRouter);
+
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
