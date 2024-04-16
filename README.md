@@ -1,6 +1,6 @@
 # Express Backend & Project Management Assignment
 
-## Overview
+## Overview of the Assignment
 
 This repository is designed as a part of a technical assignment to demonstrate the ability to build backend services using Express.js, coupled with effective project management practices using GitHub tools. It includes implementations of backend APIs for managing "Cats" and "TODO" resources, demonstrating CRUD (Create, Read, Update, Delete) operations.
 
